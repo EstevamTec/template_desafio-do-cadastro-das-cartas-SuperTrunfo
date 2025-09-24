@@ -13,7 +13,7 @@ int main(){
     int Populacao, Populacao1, Pontos_Turisticos, Pontos_Turisticos1;
     float Km, Km1, PIB, PIB1;
 
-    // Cadastro primeira carta
+    // Cadastro primeira carta.
     
     printf("Digite o Estado: \n");
     scanf("%s", &Estado);
