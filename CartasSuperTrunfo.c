@@ -3,7 +3,7 @@
 int main(){
     char Estado [50], Estado1 [50];
     char Codigo [50], Codigo1 [50];
-    char Cidade [50], char Cidade1 [50];
+    char Cidade [50], Cidade1 [50];
 
 /*Para usar Char sempre coloque [] e a quantidade que precisar usar ex: [50], se nao colocar 
     não vai imprimir na hora de rodar o codigo.*/
@@ -71,3 +71,18 @@ int main(){
     printf("Pontos Turisticos: %d\n", Pontos_Turisticos);
     printf("Area em km2: %.3f\n", Km);
     printf("Produto interno Bruto (PIB): %.3f\n", PIB);
+
+    //Imprimi informações carta 2
+
+    printf("Nome do Estado: %s\n", Estado1);
+    printf("Nome da Cidade: %s\n", Cidade1);
+    printf("Codigo da Carta: %s\n", Codigo1);
+    printf("Populacao Aproximada: %d\n", Populacao1);
+    printf("Pontos Turisticos: %d\n", Pontos_Turisticos1);
+    printf("Area em km2: %.3f\n", Km1);
+    printf("Produto interno Bruto (PIB): %.3f\n", PIB1);
+
+    // Obs: utilizei ".3" na função %f, pois numa aula vi que diminui casas decimais.
+    
+    return 0;
+}
