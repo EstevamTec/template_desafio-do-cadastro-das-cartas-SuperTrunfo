@@ -12,15 +12,15 @@ int main(){
     float Km, Km1, PIB, PIB1;
 
     // Cadastro primeira carta
-    
+    printf("CARTA UM\n\n");
     printf("Digite o Estado: \n");
-    scanf("%s", &Estado);
+    scanf("%s", Estado);
 
     printf("Digite da Cidade: \n");
-    scanf("%s", &Cidade);
+    scanf("%s", Cidade);
 
     printf("Digite o codigo da carta: \n");
-    scanf("%s", &Codigo);
+    scanf("%s", Codigo);
 
     printf("Digite o numero populacional: \n");
     scanf("%d", &Populacao);
@@ -38,17 +38,18 @@ int main(){
 
     printf("Digite o PIB (Produto Interno Bruto): \n");
     scanf("%f", &PIB);
+    printf("\n\n");
 
     //Cadastro da segunda carta
-    
+    printf("CARTA DOIS\n\n");
     printf("Digite o Estado: \n");
-    scanf("%s", &Estado1);
+    scanf("%s", Estado1);
 
     printf("Digite da Cidade: \n");
-    scanf("%s", &Cidade1);
+    scanf("%s", Cidade1);
 
     printf("Digite o codigo da carta: \n");
-    scanf("%s", &Codigo1);
+    scanf("%s", Codigo1);
 
     printf("Digite o numero populacional: \n");
     scanf("%d", &Populacao1);
@@ -61,6 +62,7 @@ int main(){
 
     printf("Digite o PIB (Produto Interno Bruto): \n");
     scanf("%f", &PIB1);
+    printf("\n\n");
 
     //Imprimi informações carta 1
 
@@ -71,6 +73,7 @@ int main(){
     printf("Pontos Turisticos: %d\n", Pontos_Turisticos);
     printf("Area em km2: %.3f\n", Km);
     printf("Produto interno Bruto (PIB): %.3f\n", PIB);
+    printf("\n\n");
 
     //Imprimi informações carta 2
 
